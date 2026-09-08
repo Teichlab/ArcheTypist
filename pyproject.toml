@@ -1,0 +1,18 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "archetypist"
+authors = [{name = "Olli Dufva", email = "od295@cam.ac.uk"}]
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+readme = {file = "README.md", content-type="text/markdown"}
+dynamic = ["version", "description"]
+dependencies = [
+    "scanpy",
+    "celltypist"
+]
+
+[project.urls]
+Home = "https://github.com/Teichlab/archetypist"
