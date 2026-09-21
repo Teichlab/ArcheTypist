@@ -618,7 +618,7 @@ def cardinal_comp_cluster_model():
     #celltypist does not understand PosixPath
     return celltypist.models.Model.load(str(files("archetypist.data").joinpath("cardinal_comp_cluster_model.pkl")))
 
-def cardinal_flat_genesymbol():
+def cardinal_celltypist_pbmc_model():
     """
     Load the distributed CellTypist Cardinal PBMC model
     """

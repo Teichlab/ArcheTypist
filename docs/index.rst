@@ -20,6 +20,6 @@ Project home page `here <https://github.com/Teichlab/archetypist>`_
    archetypist.cardinal_synthetic_reference
    archetypist.cardinal_archetype_model
    archetypist.cardinal_comp_cluster_model
-   archetypist.cardinal_flat_genesymbol
+   archetypist.cardinal_celltypist_pbmc_model
    archetypist.cmv_rf_model
 
